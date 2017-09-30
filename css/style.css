@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Saira Condensed', sans-serif;
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    font-size: 40px;
+    color: #656565;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+h2 {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.random {
+    font-size: 26px;
+    margin-bottom: 0;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #F7F7F7;
+    border-left: 4px solid #656565;
+}
+
+li:hover {
+    background-color: #F7F7F7;
+    border-left: 15px solid #656565;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#start {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #656565;
+    color: #656565;
+    width: 288px;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+#start:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="text"] {
+    width: 250px;
+    border: 2px solid #656565;
+    background-color: rgba(0, 0, 0, 0);
+    color: #656565;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 10px 10px 10px 10px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+.container {
+    padding-top: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-top {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
